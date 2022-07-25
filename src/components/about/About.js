@@ -4,12 +4,17 @@ import ME from '../../assets/nigel-face.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import BG from '../../assets/bg2.jpg';
+import {Parallax} from 'react-parallax';
 
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get to know</h5>
-      <h2>About me</h2>
+      <div className='top'>
+        <h4>Get to know</h4>
+        <h1>About me</h1>
+      </div>
+      <Parallax bgImage={BG} strength={700}>
       <div className='container about__container'>
 
         <div className='about__me'>
@@ -55,6 +60,7 @@ const About = () => {
           <a href='#contact' className='btn btn-primary'>Let's talk</a>
         </div>
       </div>
+      </Parallax>
 
     </section>
   )

@@ -1,12 +1,16 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import BG from '../../assets/bg3.jpg'
+import {Parallax} from 'react-parallax'
 
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>The skills I have</h5>
-      <h2></h2>
+      <div className='top_experience'>
+        <h1>The skills I have</h1>
+      </div>
+      <Parallax bgImage={BG} strength={750}>
       <div className='container experience__container'>
 
         <div className='experience__frontend'>
@@ -139,6 +143,7 @@ const Experience = () => {
         </div>
 
         </div>  
+      </Parallax>
     </section>
   )
 }

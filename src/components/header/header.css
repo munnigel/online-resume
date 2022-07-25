@@ -2,6 +2,7 @@ header {
     height: 100vh;
     padding-top: 3.5rem;
     overflow: hidden;
+    margin-bottom: 10rem;
 }
 
 .header__container {
@@ -46,8 +47,8 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+    width: 30rem;
+    height: 32rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

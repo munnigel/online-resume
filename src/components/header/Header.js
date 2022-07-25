@@ -1,15 +1,18 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/nigel-face-2.png'
+import ME from '../../assets/ReadyPlayerMe-Avatar.png'
 import HeaderSocials from './HeaderSocials'
+import { Parallax } from 'react-parallax'
+import BG from '../../assets/bg1.jpg'
 
 const Header = () => {
   return (
+    <Parallax bgImage={BG} strength={700}>
     <header>
       <div className='container header__container'>
-      <h5>Hello I'm</h5>
-      <h1>Nigel Mun</h1>
+      <h4>Hello I'm</h4>
+      <h1><b>Nigel Mun</b></h1>
       <h5 className='text-light'>Web Developer</h5>
       <CTA />
       <HeaderSocials />
@@ -19,7 +22,11 @@ const Header = () => {
       </div>
         <a href="#contact" className='scroll__down'>Scroll down</a>
       </div>
+
     </header>
+    </Parallax>
+
+    
   )
 }
 

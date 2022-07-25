@@ -5,6 +5,8 @@ import {BsWhatsapp} from 'react-icons/bs'
 import {FaTelegramPlane} from 'react-icons/fa'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import BG from '../../assets/bg6.jpg'
+import { Parallax } from 'react-parallax'
 
 const Contact = () => {
 
@@ -21,9 +23,12 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get in touch</h5>
-      <h2>Contact me</h2>
+      <div className='top_contact'>
+        <h4>Get in touch</h4>
+        <h1>Contact me</h1>
+      </div>
 
+      <Parallax bgImage={BG} strength={700}>
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
@@ -55,6 +60,7 @@ const Contact = () => {
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
+      </Parallax>
     </section>
   )
 }

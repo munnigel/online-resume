@@ -2,6 +2,19 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin-top: 9rem;
+    margin-bottom: 12rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: #ccc7c7;
+    background-image: linear-gradient(#3B4046, #6C6C6C);
 }
 
 .about__me {
@@ -43,7 +56,7 @@
 }
  
 .about__card:hover {
-    background: transparent;
+    background: rgba(77, 181, 255, 0.4);
     border: var(--color-primary-variant) 1px solid;
     cursor: hover;
 }

@@ -3,13 +3,18 @@ import './services.css'
 import {BsCheckAll} from 'react-icons/bs'
 import FP from '../../assets/FP-image.png'
 import SV from '../../assets/seed-ventures.png'
+import BG from '../../assets/bg4.jpg'
+import {Parallax} from 'react-parallax'
 
 const Services = () => {
   return (
     <section id='services'>
-      <h5>My experiences</h5>
-      <h2>Past Internship expriences</h2>
+      <div className='top_services'>
+        <h4>My experiences</h4>
+        <h1>Past Internship expriences</h1>
+      </div>
 
+      <Parallax bgImage={BG} strength={700}>
       <div className='container services__container'>
         <article className='service'>
           <div className='service__head'>
@@ -67,6 +72,7 @@ const Services = () => {
           </ul>
         </article>
       </div>
+      </Parallax>
     </section>
   )
 }

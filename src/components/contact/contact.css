@@ -3,6 +3,19 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+
+.top_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: #ccc7c7;
+    background-image: linear-gradient(#646464, #222222);
 }
 
 .contact__options {

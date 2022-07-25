@@ -8,7 +8,7 @@ import BG from '../../assets/bg1.jpg'
 
 const Header = () => {
   return (
-    <Parallax bgImage={BG} strength={700}>
+    <Parallax bgImage={BG} strength={800}>
     <header>
       <div className='container header__container'>
       <h4>Hello I'm</h4>

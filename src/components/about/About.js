@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/nigel-face.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -20,26 +20,38 @@ const About = () => {
 
         <div className='about__content'>
           <div className='about__cards'>
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>6 months</small>
-            </article>
 
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>Academy Award Winner Nickson Fong and founder of LIV3LY Jeffrey Foo</small>
-            </article>
+            <a href='#services'>
+              <article className='about__card'>
+                <FaAward className='about__icon'/>
+                <h5>CODING EXPERIENCE</h5>
+                <small>3 Years</small>
+              </article>
+            </a>
 
-            <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>Many</small>
-            </article>
+            <a href='#services'>
+              <article className='about__card'>
+                <FiUsers className='about__icon'/>
+                <h5>CLIENTS</h5>
+                <small>
+                  <ul>
+                    <li>Academy Award Winner Nickson Fong</li><br></br>
+                    <li>Founder of LIV3LY Jeffrey Foo</li>
+                  </ul>
+                  </small>
+              </article>
+            </a>
+
+            <a href='#services'>
+              <article className='about__card'>
+                <VscFolderLibrary className='about__icon'/>
+                <h5>PROJECTS</h5>
+                <small>6 school projects, 3 internship projects</small>
+              </article>
+            </a>
+
           </div>
-
-          <p> Lorem ipsum blah blah amer consectetur elit</p>
+          <p> Hi everyone, I am Nigel Mun, a 3rd year student studying Computer Science and Design in the Singapore University of Technology and Design (SUTD). I value aesthetic designs, and I am all-in on web development. </p>
           <a href='#contact' className='btn btn-primary'>Let's talk</a>
         </div>
       </div>

@@ -4,8 +4,6 @@ import IMG1 from '../../assets/disney.PNG'
 import IMG2 from '../../assets/COVID.png'
 import IMG3 from '../../assets/android.PNG'
 import IMG4 from '../../assets/ruby.PNG'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
 import BG from '../../assets/bg5.jpg'
 import { Parallax } from 'react-parallax'
 

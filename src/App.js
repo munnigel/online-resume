@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
@@ -8,18 +7,30 @@ import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Portfolio from './components/portfolio/Portfolio';
+import BG from './assets/bg1.jpg';
+import {Parallax} from 'react-parallax';
+
+
+
 
 function App() {
+
+
+
+
   return (
-    <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Services />
-      <Portfolio />
-      <Contact />
-      <Footer />
+    <> 
+
+          <Header />
+          <Nav />
+          <About />
+          <Experience />
+          <Services />
+          <Portfolio />
+          <Contact />
+          <Footer />
+
+    
     </>
     )
 }

@@ -7,10 +7,11 @@ import {Parallax} from 'react-parallax'
 const Experience = () => {
   return (
     <section id='experience'>
+      <Parallax bgImage={BG} strength={750}>
       <div className='top_experience'>
         <h1>The skills I have</h1>
       </div>
-      <Parallax bgImage={BG} strength={750}>
+
       <div className='container experience__container'>
 
         <div className='experience__frontend'>

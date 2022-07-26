@@ -9,12 +9,13 @@ import {Parallax} from 'react-parallax'
 const Services = () => {
   return (
     <section id='services'>
+      <Parallax bgImage={BG} strength={700}>
       <div className='top_services'>
         <h4>My experiences</h4>
         <h1>Past Internship expriences</h1>
       </div>
 
-      <Parallax bgImage={BG} strength={700}>
+  
       <div className='container services__container'>
         <article className='service'>
           <div className='service__head'>

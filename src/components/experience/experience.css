@@ -14,7 +14,8 @@
     padding-bottom: 2rem;
     padding-top: 2rem;
     color: #ccc7c7;
-    background-image: linear-gradient(#646464, #222222);
+    background-color: #ffffff15;
+    backdrop-filter: blur(15px);
 }
 
 .experience__container > div {

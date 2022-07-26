@@ -57,11 +57,12 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
+      <Parallax bgImage={BG} strength={700}>
       <div className='portfolio_top'>
         <h4>My recent work</h4>
         <h1>Portfolio</h1>
       </div>
-      <Parallax bgImage={BG} strength={700}>
+
       <div className='container portfolio__container'>
         {
           data.map(({id, image, title, github, demo, desc1, desc2, desc3}) => {

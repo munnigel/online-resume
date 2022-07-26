@@ -23,12 +23,13 @@ const Contact = () => {
 
   return (
     <section id='contact'>
+      <Parallax bgImage={BG} strength={700}>
       <div className='top_contact'>
         <h4>Get in touch</h4>
         <h1>Contact me</h1>
       </div>
 
-      <Parallax bgImage={BG} strength={700}>
+  
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>

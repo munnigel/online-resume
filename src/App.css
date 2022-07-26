@@ -11,7 +11,7 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: #474759;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -34,10 +34,10 @@ html{
 
 body{
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
+  /* background: rgba(71, 71, 89, 0.2); */
+  background: transparent;
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
 }
 
 /* ********************* GENERAL STYLE************************ */
@@ -55,9 +55,9 @@ h1 {
   font-size: 2.5rem;
 }
 
-section {
-  margin-top: 8rem;
-}
+/* section {
+  margin-top: 1rem;
+} */
 
 section > h2, section > h5 {
   text-align: center;
@@ -130,4 +130,12 @@ img {
   section > h2 {
     margin-bottom: 2rem;
   }
+}
+
+canvas {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }

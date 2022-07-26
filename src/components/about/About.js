@@ -10,11 +10,12 @@ import {Parallax} from 'react-parallax';
 const About = () => {
   return (
     <section id='about'>
+      <Parallax bgImage={BG} strength={700}>
       <div className='top'>
         <h4>Get to know</h4>
         <h1>About me</h1>
       </div>
-      <Parallax bgImage={BG} strength={700}>
+
       <div className='container about__container'>
 
         <div className='about__me'>

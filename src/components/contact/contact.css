@@ -72,11 +72,17 @@ input, textarea {
     color: var(--color-white);
 }
 
+
+
 /* ********************* MEDIA QUERIES (MEDIUM SIZE) ************************ */
 @media screen and (max-width: 1024px) {
    .contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    #contact {
+        margin-top: 0;
     }
 }
 
@@ -85,5 +91,9 @@ input, textarea {
     .contact__container {
         width: var(--container-width-sm);
     }  
+
+    #contact {
+        margin-top: 0;
+    }
 }
 

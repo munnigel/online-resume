@@ -90,6 +90,10 @@
     .service{
         height: auto;
     }
+
+    #services {
+        margin-top: 0;
+    }
 }
    
 
@@ -98,5 +102,9 @@
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    #services {
+        margin-top: 0;
     }
 }

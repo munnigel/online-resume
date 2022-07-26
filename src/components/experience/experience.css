@@ -70,6 +70,10 @@
         padding: 1rem;
         padding-left: 3rem;
     }
+
+    #experience {
+        margin-top:0;
+    }
 }
 
 /* ********************* MEDIA QUERIES (SMALL SIZE) ************************ */
@@ -81,6 +85,9 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+    #experience {
+        margin-top:0;
     }
 
 }

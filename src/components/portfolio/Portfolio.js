@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/disney.PNG'
 import IMG2 from '../../assets/COVID.png'
 import IMG3 from '../../assets/android.PNG'
 import IMG4 from '../../assets/ruby.PNG'
+import IMG5 from '../../assets/IMG4.PNG'
 import BG from '../../assets/bg5.jpg'
 import { Parallax } from 'react-parallax'
 
@@ -26,8 +27,8 @@ const data = [
     desc2:'Using Python to code out the cost function and gradient descent and evaluated the model using key metrics such as mean squared error and r-squared value.',
     desc3:'',
     image: IMG2,
-    github: 'https://github.com/munnigel?tab=repositories',
-    demo: 'https://munnigel.github.io/portfolio/'
+    github: '',
+    demo: ''
   },
   {
     id: 3,
@@ -37,7 +38,7 @@ const data = [
     desc3:'Deployed on Google Cloud Platform.',
     image: IMG4,
     github: 'https://github.com/munnigel?tab=repositories',
-    demo: 'https://munnigel.github.io/portfolio/'
+    demo: 'https://rubyduckies-angular-frontend-wmma3ffcjq-as.a.run.app/'
   },
   {
     id: 4,
@@ -47,12 +48,27 @@ const data = [
     desc3:'Deployed Firebase as a backend hosting service.',
     image: IMG3,
     github: 'https://github.com/munnigel/Hackathon-android-app',
-    demo: 'https://munnigel.github.io/portfolio/'
+    demo: ''
   },
-]
+  {
+    id: 5,
+    title: 'Creating, updating and deleting data using React and Redux',
+    desc1:'Built a functional, responsive Bookslist app, able to do CRUD operations with React and Redux',
+    desc2:'Used Styled Components and CSS for website design, and utilized Redux as data layer for data access.',
+    desc3:'Deployed on Heroku as a backend hosting service.',
+    image: IMG5,
+    github: 'https://github.com/munnigel/React-Redux-CRUD-booklist',
+    demo: 'https://stormy-crag-55641.herokuapp.com/'
+  }
+];
+
+
+
 
 
 const Portfolio = () => {
+
+
   return (
     <section id='portfolio'>
       <Parallax bgImage={BG} strength={700}>
@@ -77,8 +93,11 @@ const Portfolio = () => {
                 <li>{desc3}</li>
               </ul>
               <div className='portfolio__article-cta'>
-                <a href={github} className='btn' target='_blank'>Github</a>
-                {/* <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a> */}
+                {github? 
+                <a href={github} className='btn' target='_blank'>Github</a> : null}
+                {demo?
+                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a> : null}
+
               </div>
               </article>
             )

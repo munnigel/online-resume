@@ -3,6 +3,7 @@ header {
     padding-top: 3.5rem;
     overflow: hidden;
     margin-bottom: 10rem;
+    visibility: visible;
 }
 
 .header__container {

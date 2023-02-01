@@ -41,8 +41,9 @@ const About = () => {
                 <h5>CLIENTS</h5>
                 <small>
                   <ul>
-                    <li>Academy Award Winner Nickson Fong</li><br></br>
-                    <li>Founder of LIV3LY Jeffrey Foo</li>
+                    <li>Academy Award Winner Nickson Fong</li><br/>
+                    <li>Founder of LIV3LY Jeffrey Foo</li><br/>
+                    <li>CTO of Monstyr Jack Lim</li>
                   </ul>
                   </small>
               </article>

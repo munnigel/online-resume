@@ -5,6 +5,7 @@ import IMG2 from '../../assets/COVID.png'
 import IMG3 from '../../assets/android.PNG'
 import IMG4 from '../../assets/ruby.PNG'
 import IMG5 from '../../assets/IMG4.PNG'
+import IMG6 from '../../assets/JTeam.PNG'
 import BG from '../../assets/bg5.jpg'
 import { Parallax } from 'react-parallax'
 
@@ -55,10 +56,19 @@ const data = [
     title: 'Creating, updating and deleting data using React and Redux',
     desc1:'Built a functional, responsive Bookslist app, able to do CRUD operations with React and Redux',
     desc2:'Used Styled Components and CSS for website design, and utilized Redux as data layer for data access.',
-    desc3:'Deployed on Heroku as a backend hosting service.',
+    desc3:'Deployed on Heroku as hosting service.',
     image: IMG5,
     github: 'https://github.com/munnigel/React-Redux-CRUD-booklist',
     demo: 'https://stormy-crag-55641.herokuapp.com/'
+  },
+  {
+    id: 6,
+    title: 'J Team Universe NFT website',
+    desc1:'Worked on a project by Jack Neo, to build an informative NFT website using ReactJS and deployed on Firebase.',
+    desc2:'The page was designed to display information about his various famous movies, “Ah Boys to Men” and “Ah Girls Go Army” NFT, including images and metadata.',
+    desc3:'Made use of many design libraries such as Ant Design, Bootstrap, and Parallax Scrolling to produce a visually appealing website. Deployed Firebase as hosting service.',
+    image: IMG6,
+    demo: 'https://j-team-universe.web.app/'
   }
 ];
 

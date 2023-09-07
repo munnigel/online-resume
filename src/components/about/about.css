@@ -115,6 +115,12 @@
         gap: 1rem;
     }
 
+    .about__card {
+        font-size: 0.95rem;
+        padding: 1rem;
+    }
+    
+
     .about__content {
         text-align: center;
     }

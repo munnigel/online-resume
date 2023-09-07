@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/disney.PNG'
-import IMG2 from '../../assets/COVID.png'
-import IMG3 from '../../assets/android.PNG'
-import IMG4 from '../../assets/ruby.PNG'
-import IMG5 from '../../assets/IMG4.PNG'
-import IMG6 from '../../assets/JTeam.PNG'
+import IMG1 from '../../assets/disney.jpg'
+import IMG2 from '../../assets/COVID.jpg'
+import IMG3 from '../../assets/android.jpg'
+import IMG4 from '../../assets/ruby.jpg'
+import IMG5 from '../../assets/IMG4.jpg'
+import IMG6 from '../../assets/JTeam.jpg'
 import BG from '../../assets/bg5.jpg'
 import { Parallax } from 'react-parallax'
 
@@ -59,7 +59,7 @@ const data = [
     desc3:'Deployed on Heroku as hosting service.',
     image: IMG5,
     github: 'https://github.com/munnigel/React-Redux-CRUD-booklist',
-    demo: 'https://stormy-crag-55641.herokuapp.com/'
+    demo: 'https://react-crud-booklist.web.app/'
   },
   {
     id: 6,

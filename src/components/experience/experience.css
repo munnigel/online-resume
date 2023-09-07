@@ -16,6 +16,7 @@
     color: #ccc7c7;
     background-color: #ffffff15;
     backdrop-filter: blur(15px);
+    text-align: center;
 }
 
 .experience__container > div {
@@ -89,5 +90,16 @@
     #experience {
         margin-top:0;
     }
+    .experience__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        padding-left: 0;
+    }
 
+    .experience__details {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
 }

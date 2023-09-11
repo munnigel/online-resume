@@ -1,0 +1,26 @@
+/* styles.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #444B55;
+  padding: 15px 10px;
+  z-index: 1000; /* Ensure the header is above other content */
+}
+
+.header-content {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 30px;
+}
+
+.header-content a {
+  margin-left: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.header.hidden {
+  display: none;
+}

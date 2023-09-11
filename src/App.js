@@ -7,20 +7,12 @@ import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Portfolio from './components/portfolio/Portfolio';
-import BG from './assets/bg1.jpg';
-import {Parallax} from 'react-parallax';
-
-
-
+import Login from './components/loginHeader/Login';
 
 function App() {
-
-
-
-
   return (
     <> 
-
+          <Login />
           <Header />
           <Nav />
           <About />

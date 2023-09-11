@@ -53,12 +53,12 @@ const About = () => {
               <article className='about__card'>
                 <VscFolderLibrary className='about__icon'/>
                 <h5>PROJECTS</h5>
-                <small>6 school projects, 3 internship projects</small>
+                <small>6 school projects, 6 internship projects</small>
               </article>
             </a>
 
           </div>
-          <p> Hi everyone, I am Nigel Mun, a 3rd year student studying Computer Science and Design in the Singapore University of Technology and Design (SUTD). I value aesthetic designs, and I am all-in on web development. </p>
+          <p> Hi everyone, I am Nigel Mun, a final year student studying Computer Science and Design in the Singapore University of Technology and Design (SUTD). I value aesthetic designs, and I am all-in on web development. </p>
           <a href='#contact' className='btn btn-primary'>Let's talk</a>
         </div>
       </div>
